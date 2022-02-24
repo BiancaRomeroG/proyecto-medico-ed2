@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">AppEnfermedades</string>
+    <string name="app_name">SymptoMedic</string>
+    <string name="description">Imagen Logo</string>
+    <string name="tituloPrincipal">¿Qué le preocupa hoy de su salud?</string>
+    <string name="descripcionPrincipal">Controle sus síntomas y averigüe qué podría estar causándolos.</string>
+    <string name="btnPrincipal">Comienza el chequeo</string>
 </resources>
