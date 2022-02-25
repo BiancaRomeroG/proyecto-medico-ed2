@@ -16,8 +16,11 @@ public class BienvenidaActivity extends AppCompatActivity {
         btnHola = findViewById(R.id.btnSiguienteBienvenida);
         btnHola.setOnClickListener(view -> PantallaPregunta1());
     }
+
     public void PantallaPregunta1(){
         Intent intent = new Intent(this, ViewQuestion1.class);
         startActivity(intent);
     }
+
+
 }

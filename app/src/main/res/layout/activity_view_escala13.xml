@@ -32,59 +32,70 @@
 
         <TextView
             android:id="@+id/textView"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
+            android:layout_marginStart="10dp"
             android:layout_marginTop="25dp"
-            android:text="@string/titleQuestion1"
-            android:textSize="25sp"
+            android:text="@string/escala13"
+            android:textSize="19dp"
             android:textStyle="bold" />
 
-        <com.google.android.material.chip.ChipGroup
+        <RadioGroup
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="90dp"
-            app:chipSpacingVertical="80dp"
+            android:layout_marginTop="100dp"
             app:singleSelection="true">
 
-            <com.google.android.material.chip.Chip
-                android:id="@+id/chip4"
-                android:layout_width="150dp"
-                android:layout_height="80dp"
-                android:text="@string/cbxSi"
+            <RadioButton
+                android:id="@+id/radio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
                 android:textAlignment="center"
-                android:textSize="24sp"
-                style="@style/Widget.MaterialComponents.Chip.Filter"
-                app:chipBackgroundColor="@color/chip_background_color"
-                app:chipIcon="@drawable/ic_check"
-                app:checkedIcon="@drawable/ic_check"
-                app:chipStrokeColor="#54B5A6"
-                app:chipStrokeWidth="2dp" />
+                android:textSize="20sp" />
 
-            <com.google.android.material.chip.Chip
-                android:id="@+id/chip5"
-                app:chipBackgroundColor="@color/chip_background_color"
-                android:layout_width="150dp"
-                android:layout_height="80dp"
-                android:layout_marginBottom="50dp"
-                android:text="@string/cbxNo"
+            <RadioButton
+                android:id="@+id/radio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2"
                 android:textAlignment="center"
-                android:textSize="24sp"
-                app:chipIcon="@drawable/ic_baseline_clear_24"
-                style="@style/Widget.MaterialComponents.Chip.Filter"
-                app:chipStrokeColor="#54B5A6"
-                app:checkedIcon="@drawable/ic_baseline_clear_24"
-                app:chipStrokeWidth="2dp" />
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/radio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/radio4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/radio5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5"
+                android:textAlignment="center"
+                android:textSize="20sp" />
 
 
-        </com.google.android.material.chip.ChipGroup>
+        </RadioGroup>
 
 
     </androidx.cardview.widget.CardView>
 
     <Button
-        android:id="@+id/btnSiguienteEscala1"
+        android:id="@+id/btnSiguientePregunta2"
         android:layout_width="207dp"
         android:layout_height="48dp"
         android:layout_below="@id/cardView"

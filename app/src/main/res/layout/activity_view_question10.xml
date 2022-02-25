@@ -36,7 +36,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="25dp"
-            android:text="@string/titleQuestion1"
+            android:text="@string/titleQuestion10"
             android:textSize="25sp"
             android:textStyle="bold" />
 

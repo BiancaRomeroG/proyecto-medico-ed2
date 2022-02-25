@@ -5,10 +5,18 @@
     <string name="descripcionPrincipal">Controle sus síntomas y averigüe qué podría estar causándolos.</string>
     <string name="btnPrincipal">Comienza el chequeo</string>
     <string name="titleQuestion1">¿Tiene fiebre?</string>
+    <string name="titleQuestion9">¿Presenta vómitos?</string>
+    <string name="titleQuestion10">¿Presenta diarrea?</string>
+    <string name="titleQuestion11">¿Se siente fatigado?</string>
+    <string name="titleQuestion12">¿Presenta erupciones?</string>
+    <string name="titleQuestion13">¿Tiene picazón?</string>
     <string name="bienvenidaTitulo">¡Hola!</string>
     <string name="descripcionBienvenida">Está a punto de realizar un chequeo médico breve. Sus respuestas serán analizadas cuidadosamente y se le informará sobre las posibles causas de sus síntomas.</string>
     <string name="btnSiguiente">Siguiente</string>
     <string name="cbxSi">Si</string>
     <string name="cbxNo">No</string>
-    <string name="escala1">De la escala del 1 al 5,¿Qué tan fuerte es su dolor de cabeza?</string>
+    <string name="escala1">De la escala del 1 al 5, ¿Qué tan fuerte es su dolor de cabeza?</string>
+    <string name="escala12">De la escala del 1 al 5, ¿Qué tan fuerte son sus erupciones?</string>
+    <string name="escala13">De la escala del 1 al 5, ¿Qué tan fuerte es su picazón?</string>
+
 </resources>
