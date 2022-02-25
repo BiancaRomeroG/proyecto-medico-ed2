@@ -6,25 +6,18 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class ViewQuestion1 extends AppCompatActivity {
     Button btnSiguiente;
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        btnSiguiente = findViewById(R.id.btnMain);
-        btnSiguiente.setOnClickListener(view -> SiguientePantalla());
-
+        setContentView(R.layout.activity_view_question1);
+        btnSiguiente = findViewById(R.id.btnSiguienteEscala1);
+        btnSiguiente.setOnClickListener(view -> Pantalla_escala1());
 
     }
-    public void SiguientePantalla() {
-        Intent intent = new Intent(this, BienvenidaActivity.class);
+    public void Pantalla_escala1() {
+        Intent intent = new Intent(this, view_escala1.class);
         startActivity(intent);
     }
-
-
-
-
 }
