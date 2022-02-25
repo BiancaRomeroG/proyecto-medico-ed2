@@ -37,7 +37,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginStart="10dp"
             android:layout_marginTop="25dp"
-            android:text="@string/escala12"
+            android:text="@string/escala4"
             android:textSize="19dp"
             android:textStyle="bold" />
 
@@ -95,7 +95,7 @@
     </androidx.cardview.widget.CardView>
 
     <Button
-        android:id="@+id/btnSiguientePregunta13"
+        android:id="@+id/btnSiguientePregunta5"
         android:layout_width="207dp"
         android:layout_height="48dp"
         android:layout_below="@id/cardView"

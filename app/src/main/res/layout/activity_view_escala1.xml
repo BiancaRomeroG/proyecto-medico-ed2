@@ -52,7 +52,7 @@
                 android:id="@+id/radio1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="1"
+                android:text="37-38"
                 android:textAlignment="center"
                 android:textSize="20sp" />
 
@@ -60,7 +60,7 @@
                 android:id="@+id/radio2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="2"
+                android:text="38-39"
                 android:textAlignment="center"
                 android:textSize="20sp" />
 
@@ -68,7 +68,7 @@
                 android:id="@+id/radio3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="3"
+                android:text="39-40"
                 android:textAlignment="center"
                 android:textSize="20sp" />
 
@@ -76,18 +76,9 @@
                 android:id="@+id/radio4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="4"
+                android:text=">40"
                 android:textAlignment="center"
                 android:textSize="20sp" />
-
-            <RadioButton
-                android:id="@+id/radio5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="5"
-                android:textAlignment="center"
-                android:textSize="20sp" />
-
 
         </RadioGroup>
 

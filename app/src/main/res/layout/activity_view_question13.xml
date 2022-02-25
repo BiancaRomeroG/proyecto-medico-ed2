@@ -84,7 +84,7 @@
     </androidx.cardview.widget.CardView>
 
     <Button
-        android:id="@+id/btnSiguienteEscala1"
+        android:id="@+id/btnSiguienteEscala13"
         android:layout_width="207dp"
         android:layout_height="48dp"
         android:layout_below="@id/cardView"

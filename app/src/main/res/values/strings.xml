@@ -5,6 +5,9 @@
     <string name="descripcionPrincipal">Controle sus síntomas y averigüe qué podría estar causándolos.</string>
     <string name="btnPrincipal">Comienza el chequeo</string>
     <string name="titleQuestion1">¿Tiene fiebre?</string>
+    <string name="titleQuestion2">¿Tiene dolor de pecho?</string>
+    <string name="titleQuestion3">¿Tiene dolor abdominal?</string>
+    <string name="titleQuestion4">¿Tiene náuseas?</string>
     <string name="titleQuestion9">¿Presenta vómitos?</string>
     <string name="titleQuestion10">¿Presenta diarrea?</string>
     <string name="titleQuestion11">¿Se siente fatigado?</string>
@@ -15,7 +18,10 @@
     <string name="btnSiguiente">Siguiente</string>
     <string name="cbxSi">Si</string>
     <string name="cbxNo">No</string>
-    <string name="escala1">De la escala del 1 al 5, ¿Qué tan fuerte es su dolor de cabeza?</string>
+    <string name="escala1">¿Cuál es su temperatura corporal?</string>
+    <string name="escala2">De la escala del 1 al 5, ¿Qué tan fuerte es su dolor de pecho?</string>
+    <string name="escala3">De la escala del 1 al 5, ¿Qué tan fuerte es su dolor abdominal?</string>
+    <string name="escala4">De la escala del 1 al 5, ¿Qué tan fuerte son sus náuseas?</string>
     <string name="escala12">De la escala del 1 al 5, ¿Qué tan fuerte son sus erupciones?</string>
     <string name="escala13">De la escala del 1 al 5, ¿Qué tan fuerte es su picazón?</string>
 
