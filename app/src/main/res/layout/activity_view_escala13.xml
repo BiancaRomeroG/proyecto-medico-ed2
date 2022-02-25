@@ -95,7 +95,7 @@
     </androidx.cardview.widget.CardView>
 
     <Button
-        android:id="@+id/btnSiguientePregunta2"
+        android:id="@+id/btnSiguientePregunta14"
         android:layout_width="207dp"
         android:layout_height="48dp"
         android:layout_below="@id/cardView"
