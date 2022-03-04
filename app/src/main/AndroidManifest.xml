@@ -10,48 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppEnfermedades">
         <activity
-            android:name=".ViewEscala4"
-            android:exported="false" />
-        <activity
-            android:name=".ViewEscala3"
-            android:exported="false" />
-        <activity
-            android:name=".ViewEscala2"
-            android:exported="false" />
-        <activity
-            android:name=".ViewQuestion4"
-            android:exported="false" />
-        <activity
-            android:name=".ViewQuestion3"
-            android:exported="false" />
-        <activity
-            android:name=".ViewQuestion2"
-            android:exported="false" />
-        <activity
-            android:name=".ViewEscala13"
-            android:exported="false" />
-        <activity
-            android:name=".ViewQuestion13"
-            android:exported="false" />
-        <activity
-            android:name=".ViewQuestion12"
-            android:exported="false" />
-        <activity
-            android:name=".ViewQuestion11"
-            android:exported="false" />
-        <activity
-            android:name=".ViewQuestion10"
-            android:exported="false" />
-        <activity
-            android:name=".ViewEscala12"
-            android:exported="false" />
-        <activity
-            android:name=".ViewQuestion9"
-            android:exported="false" />
-        <activity
-            android:name=".ViewEscala1"
-            android:exported="false" />
-        <activity
             android:name=".ViewQuestion1"
             android:exported="false" />
         <activity
