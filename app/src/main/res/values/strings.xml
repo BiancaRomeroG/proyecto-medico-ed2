@@ -10,6 +10,9 @@
     <string name="btnSiguiente">Siguiente</string>
     <string name="cbxSi">Si</string>
     <string name="cbxNo">No</string>
-
-
+    <string name="causas">Posibles Causas</string>
+    <string name="causasC">Por favor, tenga en cuenta que la lista podría no ser completa y que la información proporcionada tiene una finalidad informativa y no se corresponde con una opinión médica real.</string>
+    <string name="Rec">Recomendación</string>
+    <string name="RecoC">Sus síntomas pueden requerir una valoración médica. Pida una cita con su médico de cabecera y si sus síntomas empeoran, consulte a un médico de inmediato.</string>
+    <string name="Start">Empezar de nuevo</string>
 </resources>
