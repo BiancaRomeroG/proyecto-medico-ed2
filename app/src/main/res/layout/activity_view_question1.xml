@@ -31,7 +31,7 @@
         app:cardBackgroundColor="#DEF3FC">
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/preguntaTxtView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
@@ -49,32 +49,32 @@
             app:singleSelection="true">
 
             <com.google.android.material.chip.Chip
-                android:id="@+id/chip4"
+                android:id="@+id/siChip"
+                style="@style/Widget.MaterialComponents.Chip.Filter"
                 android:layout_width="150dp"
                 android:layout_height="80dp"
                 android:text="@string/cbxSi"
                 android:textAlignment="center"
                 android:textSize="24sp"
-                style="@style/Widget.MaterialComponents.Chip.Filter"
+                app:checkedIcon="@drawable/ic_check"
                 app:chipBackgroundColor="@color/chip_background_color"
                 app:chipIcon="@drawable/ic_check"
-                app:checkedIcon="@drawable/ic_check"
                 app:chipStrokeColor="#54B5A6"
                 app:chipStrokeWidth="2dp" />
 
             <com.google.android.material.chip.Chip
-                android:id="@+id/chip5"
-                app:chipBackgroundColor="@color/chip_background_color"
+                android:id="@+id/noChip"
+                style="@style/Widget.MaterialComponents.Chip.Filter"
                 android:layout_width="150dp"
                 android:layout_height="80dp"
                 android:layout_marginBottom="50dp"
                 android:text="@string/cbxNo"
                 android:textAlignment="center"
                 android:textSize="24sp"
-                app:chipIcon="@drawable/ic_baseline_clear_24"
-                style="@style/Widget.MaterialComponents.Chip.Filter"
-                app:chipStrokeColor="#54B5A6"
                 app:checkedIcon="@drawable/ic_baseline_clear_24"
+                app:chipBackgroundColor="@color/chip_background_color"
+                app:chipIcon="@drawable/ic_baseline_clear_24"
+                app:chipStrokeColor="#54B5A6"
                 app:chipStrokeWidth="2dp" />
 
 

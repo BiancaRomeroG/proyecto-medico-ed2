@@ -79,7 +79,7 @@ public class ArbolBinario {
                 s = s + value;
                 p = p.getHijoIzq();
             } else if (p.getHijoDer() != null) {//NO
-                s = s - value;
+                //s = s - value;
                 p = p.getHijoDer();
             }
         }

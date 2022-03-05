@@ -30,4 +30,12 @@ public class Enfermedad {
         }
         return 0;
     }
+
+    public float sumatoriaPesos(){
+        float s=0;
+        for (int i = 0; i < sintomas.size(); i++) {
+            s=s+sintomas.get(i).getValor();
+        }
+        return s;
+    }
 }

@@ -2,70 +2,94 @@ package com.example.appenfermedades.negocio;
 
 import java.util.LinkedList;
 
-public class Datos {
+public final class Datos {
+
     public final static void sintomasPrimerEtapa(LinkedList<String> e, LinkedList<String> p) {
         e.add("DOLOR-PECHO");
-        e.add("CUESTA-RESPIRAR");
-        e.add("SILBIDO-RESPIRAR");
-        e.add("HINCHAZON-ARTICULACION");
-        e.add("LATIDOS-ACELERADOS");
-        e.add("ERUPCION-CUTANEA");
-        e.add("DOLOR-CABEZA");
-        e.add("FIEBRE");
-        e.add("FALTA-APETITO");
-        e.add("LLENURA");
-        e.add("DOLOR-ABDOMINAL");
-        e.add("PICAZON-PIEL");
-        e.add("PIEL-SECA");
-        e.add("ARDOR-OJOS");
-        e.add("LAGANAS");
+        p.add("¿Presenta dolor en el pecho?");
 
-        p.add("Presenta dolor en el pecho?");
-        p.add("Tiene Dificultad al respirar?");
-        p.add("Escucha un silbido cuando respira?");
-        p.add("Presenta hinchazon en sus articulaciones");
-        p.add("Tiene erupciones en la piel?");
-        p.add("Tiene dolor de Cabeza?");
-        p.add("Presenta fiebre?");
-        p.add("Presenta falta de apetito, no tiene ganas de comer?");
-        p.add("Siente sensacion de llenura?");
-        p.add("Siente dolor en el abdomen?");
-        p.add("Tiene picazon en la piel?");
-        p.add("Siente su piel seca?");
-        p.add("Presenta ardor en los ojos?");
-        p.add("Tiene laganas en los ojos?");
+        e.add("CUESTA-RESPIRAR");
+        p.add("¿Tiene dificultad para respirar?");
+
+        e.add("DOLOR-DE-GARGANTA");
+        p.add("¿Presenta dolor de garganta?");
+
+        e.add("HINCHAZON-ARTICULACION");
+        p.add("¿Presenta hinchazón en sus articulaciones?");
+
+        e.add("LATIDOS-ACELERADOS");
+        p.add("¿Tiene sus latidos acelerados?");
+
+        e.add("ERUPCION-CUTANEA");
+        p.add("¿Tiene erupciones en la piel?");
+
+        e.add("DOLOR-CABEZA");
+        p.add("¿Tiene dolor de cabeza?");
+
+        e.add("FIEBRE");
+        p.add("¿Presenta fiebre?");
+
+        e.add("FALTA-APETITO");
+        p.add("¿Tiene falta de apetito?");
+
+        e.add("LLENURA");
+        p.add("¿Siente sensacion de llenura?");
+
+        e.add("DOLOR-ABDOMINAL");
+        p.add("¿Siente dolor en el abdomen?");
+
+        e.add("PICAZON-PIEL");
+        p.add("¿Tiene picazón en la piel?");
+
+        e.add("PIEL-SECA");
+        p.add("¿Siente su piel seca?");
+
+        e.add("ARDOR-OJOS");
+        p.add("¿Presenta ardor en los ojos?");
+
+        e.add("LAGANAS");
+        p.add("¿Tiene lagañas en los ojos?");
     }
 
     public final static void enfermedadesPrimerEtapa(LinkedList<Enfermedad> enfermedades, LinkedList<String> nombreEnf) {
         Enfermedad e = new Enfermedad();
         e.addSintoma("DOLOR-PECHO", 2);
-        e.addSintoma("CUESTA-RESPIRAR", 3);
-        e.addSintoma("SILBIDO-RESPIRAR", 5);
+        e.addSintoma("DOLOR-DE-GARGANTA", 5);
+        e.addSintoma("CUESTA-RESPIRAR", 5);
+        e.addSintoma("FIEBRE", 3);
         enfermedades.add(e);
         nombreEnf.add("Enfermedades Respiratorias");
+
         e = new Enfermedad();
-        e.addSintoma("HINCHAZON-ARTICULACION", 2);
-        e.addSintoma("DOLOR-PECHO", 3);
-        e.addSintoma("LATIDOS-ACELERADOS", 5);
+        e.addSintoma("HINCHAZON-ARTICULACION", 3);
+        e.addSintoma("DOLOR-PECHO", 5);
+        e.addSintoma("CUESTA-RESPIRAR", 1);
+        e.addSintoma("LATIDOS-ACELERADOS", 4);
         enfermedades.add(e);
         nombreEnf.add("Enfermedades Cardiacas");
+
         e = new Enfermedad();
-        e.addSintoma("ERUPCION-CUTANEA", 2);
-        e.addSintoma("DOLOR-CABEZA", 3);
-        e.addSintoma("FIEBRE", 5);
+        e.addSintoma("ERUPCION-CUTANEA", 3);
+        e.addSintoma("DOLOR-CABEZA", 4);
+        e.addSintoma("FIEBRE", 4);
+        e.addSintoma("DOLOR-DE-GARGANTA", 2);
+        e.addSintoma("DOLOR-PECHO", 2);
         enfermedades.add(e);
         nombreEnf.add("Enfermedades Virales");
+
         e = new Enfermedad();
-        e.addSintoma("FALTA-APETITO", 2);
+        e.addSintoma("FALTA-APETITO", 3);
         e.addSintoma("LLENURA", 3);
-        e.addSintoma("DOLOR-ABDOMINAL", 4);
+        e.addSintoma("DOLOR-ABDOMINAL", 5);
+        e.addSintoma("FIEBRE", 3);
         enfermedades.add(e);
         nombreEnf.add("Enfermedades Intestinales");
+
         e = new Enfermedad();
-        e.addSintoma("PICAZON-PIEL", 2);
+        e.addSintoma("PICAZON-PIEL", 3);
         e.addSintoma("PIEL-SECA", 3);
-        e.addSintoma("ARDOR-OJOS", 3);
-        e.addSintoma("LAGANAS", 3);
+        e.addSintoma("ARDOR-OJOS", 4);
+        e.addSintoma("LAGANAS", 5);
         enfermedades.add(e);
         nombreEnf.add("Enfermedades Externas");
     }
@@ -78,14 +102,14 @@ public class Datos {
         respiratorias.add("INCAPACIDAD-HABLAR");
         p.add("¿Presenta alguna dificultad para hablar?");
 
+        respiratorias.add("SILBIDO-RESPIRAR");
+        p.add("Escucha un silbido cuando respira?");
+
         respiratorias.add("TOS-FLEMA");
         p.add("¿Presenta tos con flema?");
 
         respiratorias.add("NAUSEAS");
         p.add("¿Presenta náuseas?");
-
-        respiratorias.add("DOLOR-DE-GARGANTA");
-        p.add("¿Presenta dolor de garganta?");
 
         respiratorias.add("MALESTAR-GENERAL");
         p.add("¿Presenta una sensación de malestar general?");
@@ -121,7 +145,7 @@ public class Datos {
         p.add("¿Presenta diarrea?");
 
         respiratorias.add("MUCOSIDAD-GARGANTA");
-        p.add("¿Presenta alguna sensacion de mucosidad en la garganta?");
+        p.add("¿Presenta mucosidad en la garganta?");
     }
 
     public final static void enfermedadesRespiratorias(LinkedList<Enfermedad> enfermedades, LinkedList<String> nombreEnf) {
@@ -148,7 +172,7 @@ public class Datos {
         e = new Enfermedad();
         rinitis(e);
         enfermedades.add(e);
-        nombreEnf.add("Resfrio");
+        nombreEnf.add("Rinitis");
     }
 
     private static void asma(Enfermedad asma) {
@@ -620,3 +644,4 @@ public class Datos {
         inflamacionIntestinal.addSintoma("DOLOR-ARTICULAR", 2);
     }
 }
+
